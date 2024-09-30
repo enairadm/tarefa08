@@ -1,0 +1,104 @@
+/* para tudo */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background: var(--gradient-16);
+  color: var(--gray-0);
+  font-family: var(--font-rounded-sans);
+}
+
+/* cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--size-2) var(--size-5);
+  border-bottom: 0.8px solid var(--green-11);
+}
+.logo {
+  width: var(--size-8);
+  margin-right: var(--size-2);
+}
+header div {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-industrial);
+  font-weight: var(--font-weight-7);
+}
+nav ul{display: flex;}
+nav ul li {margin: 0 var(--size-2);}
+nav ul li a {
+  padding: var(--size-2);
+  color: var(--gray-0);
+}
+nav ul li a:hover {
+  color: var(--green-11);
+  border-bottom: 0.8px solid var(--green-11);
+}
+
+/* pagina inicial */
+.text-main {
+  padding: var(--size-11) 0;
+  text-align: center;
+}
+.text-main .title2 {
+  font-size: var(--size-8);
+  margin-bottom: var(--size-3);
+}
+
+/* galeria */ 
+.galeria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--size-11);
+}
+.objetotema img {
+  border-radius: var(--border-size-3);
+  width: var(--size-15);
+}
+.objetotema {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* artigos */
+.artigos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--size-11);
+  gap: var(--size-5);
+}
+.artigo {max-width: var(--size-15);}
+.links {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.8px solid var(--green-11);
+  padding: var(--size-2) 0 var(--size-2) var(--size-1);
+}
+.links i {
+  margin-right: var(--size-2);
+  font-size: var(--size-5);}
+.links .title2 {font-size: var(--size-4);}
+.artigo p {
+  font-size: var(--size-3);
+  padding: var(--size-3);
+}
+
+/* rodape */
+footer {
+  text-align: center;
+  border-top: 0.8px solid var(--green-11);
+  padding: var(--size-4) 0;
+}
+footer a {color: var(--gray-0);}
+footer a:hover {
+  color: var(--green-11);
+  border-bottom: 0.8px solid var(--green-11);
+}
